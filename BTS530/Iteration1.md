@@ -6,6 +6,10 @@ Below, you can see an activity diagram showing all steps taken by the user, as w
 ![](./Images/pick_meeting.png)
 #  
 
+# Domain Model
+
+![](./Images/domain_classes.png)
+
 # Database Design
 
 In this document, we will present how all classes for our system, which are described in the domain_classes.md document, translate into a database design. Note that this web application does not follow closely an Object Oriented design paradigm. Therefore, our classes contain only properties (but not methods). These properties are explained below as they relate to the database design. At the bottom, we will show an image showcasing how different database tables are interconnected. I am also presenting at the very end how this database could be visualized using a formal domain model representation.
@@ -52,6 +56,4 @@ The figure below show how different tables are interconnected. Note that the con
 
 ![](./Images/database.png)
 
-## Domain Model
 
-![](./Images/domain_classes.png)
